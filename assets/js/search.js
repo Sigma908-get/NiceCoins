@@ -101,7 +101,7 @@ function coinsResult(coins) {
         `;
         table.appendChild(row);
         row.onclick = () => {
-            window.location.href = `coin.html?coin=${coin.id}`;
+            window.location.href = "coin.html?coin=" + coin.id;
         };
     });
     coinsList.appendChild(table);
